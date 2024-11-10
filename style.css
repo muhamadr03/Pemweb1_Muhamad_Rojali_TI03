@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: #2b49a4;
+  justify-content: center;
+  align-items: center;
+  & ul {
+    display: flex;
+    list-style: none;
+  }
+  & a {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+}
+.img img {
+  width: 50px;
+  margin-right: 200px;
+}
+
+#banner {
+  height: 720px;
+  width: 100%;
+  background: url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp);
+  display: flex;
+  align-items: center;
+  & promosi {
+    width: 20%;
+    margin-left: 20px;
+    color: #fff;
+  }
+  & h1 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(13, 52, 151);
+    color: white;
+    width: 500px;
+    padding: 2px;
+    margin-bottom: -20px;
+    margin-left: 100px;
+  }
+  & p {
+    background-color: #ff7816;
+    color: white;
+    width: 500px;
+    text-align: justify;
+    padding: 2px;
+    margin-left: 100px;
+  }
+}
+#prodi {
+  background-color: #0e5fecbf;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  & .card1 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    margin-left: 200px;
+    width: 20%;
+    height: 300px;
+  }
+  & .card2 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
+  }
+  & .card3 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
+  }
+  & .card4 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    margin-left: 200px;
+    width: 20%;
+    height: 300px;
+  }
+  & .card5 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
+  }
+  & .card6 {
+    background: white;
+    width: fit;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
+  }
+  & .btn {
+    border: 2px solid blue;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+}
